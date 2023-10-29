@@ -174,6 +174,7 @@ body.active {
   font-size: var(--fs-1);
   line-height: 1.2;
   font-weight: 400;
+  filter: drop-shadow(0px 0px 2px #EB3705);
 }
 
 .h2,
@@ -182,11 +183,13 @@ body.active {
   color: var(--color-primary);
   font-family: var(--ff-poppins);
   line-height: 1.2;
+  
 }
 
 .h2 {
-  font-size: var(--fs-3);
+  font-size: var(--fs-1);
   margin-top: 3rem;
+  filter: drop-shadow(0px 0px 7px #EB3705);
 }
 
 .h3 {
@@ -444,6 +447,7 @@ body.active {
   padding: 10px;
   transform: translateY(50px);
   transition: 0.75s cubic-bezier(0.68, -0.55, 0.27, 2);
+  filter: drop-shadow(0px 0px 2px #EB3705);
 }
 
 .navbar.active .navbar-link {
@@ -465,6 +469,10 @@ body.active {
 
 .navbar-link:is(:hover, :focus)::before {
   width: 100%;
+}
+
+#lang {
+  display: none;
 }
 
 /*-----------------------------------*\
